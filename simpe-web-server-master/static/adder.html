@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+  <head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <title>Adder</title>
+  </head>
+  <body>
+    <center>
+      <h2>Adder</h2>
+      <form>
+	First Number: <input type="text" name="num1"/><br/><br/>
+	Second Number: <input type="text" name="num2"/><br/><br/>
+	<input type="submit" name="bot" value="Enter"/>
+      </form>
+      <br/><br/>
+      <h2>add:</h2>
+      {{.add}}
+      <br/>
+      <h2 style="color:rgb(204, 0, 0)">Error:</h2>
+      <div style="color:rgb(204, 0, 0)">
+	{{.Error}}
+      </div>
+      <br/><br/>
+      <a href="/">
+	<button>
+	  Back
+	</button>
+      </a>
+    </center>
+  </body>
+</html>
