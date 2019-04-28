@@ -42,6 +42,14 @@ Buatlah perancangan aplikasi Web Server yang dapat melakukan serve koneksi HTTPS
 
 ![secure web design](https://user-images.githubusercontent.com/33456025/56866888-f5f0ea80-6a08-11e9-83c3-29e9c25b2694.jpg)
 
+
+1. Browser mengunjungi suatu halaman website yang menggunakan SSL.
+2. Secara bersamaan browser komputer client meminta komputer server memberikan identitas SSL website untuk memvalidasi status keamanan website tersebut.
+3. Komputer server mengirim duplikat dari sertifikat SSL yang dimilikinya.
+4. Browser komputer client memeriksa kebenaran sertifikat SSL yang dimiliki website tersebut. Jika benar, browser akan mengirim permintaan untuk melakukan koneksi terenskripsi kepada server.
+5. Komputer server mengirim anak kunci berupa tanda tangan digital untuk melakukan melakukan transfer data dengan komputer client dengan identitas khusus (Private Key) yang hanya bisa digunakan komputer client tersebut. Anak kunci digital ini digunakan oleh browser membuka informasi yang diminta dari website tersebut serta mengamankan data yang dikirim ke website tersebut, karena setiap data yang dialirkan akan dibungkus oleh sistem SSL dengan identitas khusus.
+6. Koneksi terenskripsi dapat dilakukan dan browser komputer client menampilkan status “Connection is secure”. Untuk memberi tahu pengguna bahwa website tersebut aman untuk melindungi datanya.
+
 **Soal**
 
 Implementasikan aplikasi secure web server dari design yang sudah anda buat, aplikasi harus mempunyai config file untuk melakukan konfigurasi aplikasi!
