@@ -17,6 +17,8 @@ TLS, Transport Layer Security, adalah versi yang lebih update dari SSL.
 ### **SSL**
 
 SSL, Secure Sockets Layer, adalah standar untuk pengamanan komunikasi lewat internet. Data atau informasi yang sedang dikomunikasikan dari sebuah system ke system lain akan di-proteksi, dengan cara adalah mengacak informasi tersebut menggunakan algoritma enkripsi.
+
+![https](https://user-images.githubusercontent.com/33456025/56866882-e83b6500-6a08-11e9-8546-29201a229589.PNG)
         
 ### **HTML**
 
