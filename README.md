@@ -32,4 +32,29 @@ Cara Kerja HTTP:
 2. HTTP server kemudian memproses permintaan klien, sementara itu, HTTP klien menunggu respon dari server (berupa HTML) tersebut.
 3. Web server merespon permintaan dengan kode status data, lalu barulah menutup sambungan ketika telah selesai memproses    permintaan. 
 
+**Soal**
+
+Buatlah perancangan aplikasi Web Server yang dapat melakukan serve koneksi HTTPS menggunakan diagram FSM serta jelaskan cara kerjanya!
+
+**Jawaban:**
+
+![secure web design](https://user-images.githubusercontent.com/33456025/56866888-f5f0ea80-6a08-11e9-83c3-29e9c25b2694.jpg)
+
+**Soal**
+
+Implementasikan aplikasi secure web server dari design yang sudah anda buat, aplikasi harus mempunyai config file untuk melakukan konfigurasi aplikasi!
+
+**Jawaban:**
+
+![secure](https://user-images.githubusercontent.com/33456025/56866896-0e610500-6a09-11e9-8a0e-9fc0e8fc8c01.PNG)
+
+![https 2](https://user-images.githubusercontent.com/33456025/56866911-29cc1000-6a09-11e9-8ef1-dbc3e50621d8.PNG)
+
+![https 3](https://user-images.githubusercontent.com/33456025/56866900-1a4cc700-6a09-11e9-91c7-875d1f660834.PNG)
+
+
+
+
+
+
 
